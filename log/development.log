@@ -8169,3 +8169,51 @@ Processing by StaticPagesController#root as HTML
 Completed 200 OK in 2081ms (Views: 2050.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2022-03-24 15:28:49 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html within layouts/application
+  Rendered static_pages/root.html within layouts/application (1.8ms)
+Completed 200 OK in 2276ms (Views: 2268.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon" for ::1 at 2022-03-24 15:28:56 -0700
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (2.9ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  ↳ app/views/api/pokemon/index.json.jbuilder:1
+  Rendered api/pokemon/index.json.jbuilder (194.3ms)
+Completed 200 OK in 210ms (Views: 201.8ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/" for ::1 at 2022-03-24 15:33:20 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html within layouts/application
+  Rendered static_pages/root.html within layouts/application (1.3ms)
+Completed 200 OK in 450ms (Views: 446.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon" for ::1 at 2022-03-24 15:33:24 -0700
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (4.3ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  ↳ app/views/api/pokemon/index.json.jbuilder:1
+  Rendered api/pokemon/index.json.jbuilder (174.8ms)
+Completed 200 OK in 187ms (Views: 182.1ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/api/pokemon" for ::1 at 2022-03-24 15:33:34 -0700
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (0.4ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  ↳ app/views/api/pokemon/index.json.jbuilder:1
+  Rendered api/pokemon/index.json.jbuilder (175.4ms)
+Completed 200 OK in 186ms (Views: 184.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2022-03-24 15:34:32 -0700
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html within layouts/application
+  Rendered static_pages/root.html within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
